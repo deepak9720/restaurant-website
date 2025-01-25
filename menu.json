@@ -1,0 +1,20 @@
+{
+    "food": [
+      { "name": "Margherita Pizza", "price": "$10", "image": "food_images/pizza.jpg" },
+      { "name": "Pasta Alfredo", "price": "$12", "image": "food_images/pasta.webp" },
+      { "name": "Caesar Salad", "price": "$8", "image": "food_images/salad.jpg" },
+      { "name": "Grilled Chicken", "price": "$15", "image": "food_images/chicken.jpg" }
+    ],
+    "beverages": [
+      { "name": "Cappuccino", "price": "$4", "image": "food_images/cappuccino.jpg" },
+      { "name": "Orange Juice", "price": "$3", "image": "food_images/orange-juice.jpg" },
+      { "name": "Iced Tea", "price": "$3.5", "image": "food_images/iced-tea.jpg" },
+      { "name": "Lemonade", "price": "$3", "image": "food_images/lemonade.jpg" }
+    ],
+    "desserts": [
+      { "name": "Chocolate Cake", "price": "$5", "image": "food_images/chocolate-cake.jpg" },
+      { "name": "Vanilla Ice Cream", "price": "$3.5", "image": "food_images/vanilla-ice-cream.jpg" },
+      { "name": "Cheesecake", "price": "$6", "image": "food_images/cheesecake.jpg" }
+    ]
+  }
+  
