@@ -1,0 +1,163 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('background.avif') no-repeat center center fixed;
+  background-size: cover;
+  color: white; /* Ensures text is readable on a dark background */
+}
+
+
+
+/* Navbar Styling */
+/* Logo Styling */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-logo {
+    height: 40px; /* Adjust logo size */
+    width: 40px; /* Adjust logo size */
+    border-radius: 50%; /* Optional: Makes the logo circular */
+  }
+  
+  .navbar-title {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .navbar-brand:hover {
+    text-decoration: none;
+    color: #ffd700; /* Gold hover effect */
+  }
+  
+/* .navbar {
+  background-color: rgba(255, 99, 71, 0.9); /* Slight transparency */
+/* } */
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f4ad43;
+}
+
+.navbar-toggler {
+    /* border: 2px solid black; */
+    background-color: #ffd700;
+    backdrop-filter: blur(5px);
+
+  }
+
+/* Section Styling */
+section {
+  padding: 2rem 0;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  margin: 0;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+/* Menu Section */
+.menu-sections {
+    display: flex;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    gap: 20px; /* Space between categories */
+    padding-bottom: 10px;
+  }
+  
+  .menu-category {
+    flex: 0 0 auto; /* Prevents shrinking and ensures horizontal layout */
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-category h4 {
+    text-align: center;
+    color: #ffd700;
+    margin-bottom: 15px;
+  }
+  
+  /* Scrollable Items Container */
+  .items-container {
+    max-height: 300px; /* Vertical scrolling for many items */
+    overflow-y: auto;
+    padding-right: 10px;
+  }
+  
+  /* Menu Item Styling */
+  .menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 15px;
+  }
+  
+  .menu-details {
+    flex-grow: 1;
+  }
+  
+  .menu-details h5 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .menu-details p {
+    margin: 0;
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  /* Scrollbar Styling */
+  .menu-sections::-webkit-scrollbar {
+    height: 8px;
+  }
+  .menu-sections::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+  }
+  .menu-sections::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .items-container::-webkit-scrollbar {
+    width: 8px;
+  }
+  .items-container::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+  }
+  .items-container::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+footer {
+  margin-top: 2rem;
+  background: rgba(255, 99, 71, 0.9); /* Slight transparency */
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
