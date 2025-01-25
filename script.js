@@ -7,7 +7,7 @@ const menuData = {
       { name: "Grilled Chicken", price: "$15", image: "chicken.jpg" },
     ],
     beverages: [
-      { name: "Cappuccino", price: "$4", image: "food_images/cappuccino.jpg" },
+      { name: "Cappuccino", price: "$4", image: "food_images/cappucccino.jpg" },
       { name: "Orange Juice", price: "$3", image: "food_images/orange-juice.jpg" },
       { name: "Iced Tea", price: "$3.5", image: "iced-tea.jpg" },
       { name: "Lemonade", price: "$3", image: "lemonade.jpg" },
@@ -18,7 +18,7 @@ const menuData = {
       { name: "Cheesecake", price: "$6", image: "cheesecake.jpg" },
     ],
     beverages2: [
-        { name: "Cappuccino", price: "$4", image: "cappuccino.jpg" },
+        { name: "Cappuccino", price: "$4", image: "cappuccino.avif" },
         { name: "Orange Juice", price: "$3", image: "orange-juice.jpg" },
         { name: "Iced Tea", price: "$3.5", image: "iced-tea.jpg" },
         { name: "Lemonade", price: "$3", image: "lemonade.jpg" },
@@ -29,6 +29,7 @@ const menuData = {
         { name: "Cheesecake", price: "$6", image: "cheesecake.jpg" },
       ],
   };
+  
   
   // Generate Menu Sections Dynamically
   function generateMenu(menuData) {
